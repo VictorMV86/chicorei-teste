@@ -1,10 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './chicorei-teste/webpack.config.js', // Update this path
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  mode: 'production',
 };
