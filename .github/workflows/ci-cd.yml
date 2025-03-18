@@ -38,6 +38,9 @@ jobs:
         npm install
         npx webpack
 
+    - name: Verify Webpack configuration
+      run: cat webpack.config.js
+
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
