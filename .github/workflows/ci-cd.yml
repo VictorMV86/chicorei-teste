@@ -27,15 +27,6 @@ jobs:
         npm install
         npx webpack
 
-    name: Node.js Package
-
-on:
-  release:
-    types: [created]
-
-
- 
-
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
