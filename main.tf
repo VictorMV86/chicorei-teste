@@ -122,7 +122,7 @@ resource "aws_db_instance" "chicoreidb" {
   engine_version       = "8.0"
   instance_class       = var.db_instance_class
   username             = var.db_username
-  password             = "chicoreidb"
+  password             = ${{ secrets.DB_PASSWORD}}
   parameter_group_name = "default.mysql8.0"
   skip_final_snapshot  = true 
 
