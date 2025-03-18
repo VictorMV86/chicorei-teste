@@ -1,8 +1,8 @@
 # chico-rei-teste
 Teste Técnico
 Configure AWS CLI: 
-aws configure e adicione sua ID e Secret.
-Adiciona sua chave ssh publica no key deployer.
+**aws configure** e adicione sua ID e Secret.
+Adicione sua chave ssh publica no key deployer.
 
 Vou colar as partes do projeto para o exercicio referente. 
 Há referencias para: tfvars.tf
