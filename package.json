@@ -2,5 +2,8 @@
   "scripts": {
     "build": "webpack",
     "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
