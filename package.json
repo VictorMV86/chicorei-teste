@@ -15,5 +15,21 @@
     "supertest": "^7.0.0",
     "webpack": "^5.98.0",
     "webpack-cli": "^5.1.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverage": true,
+    "collectCoverageFrom": [ 
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ],
+    "testMatch": [ 
+      "**/test/**/*.test.js"
+    ]
   }
 }
